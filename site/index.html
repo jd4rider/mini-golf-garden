@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mini Golf Garden — Little Joy Arcade</title>
+    <meta name="description" content="A cosy physics miniature-golf game: 72 hand-built holes through eight whimsical gardens." />
+    <link rel="icon" type="image/svg+xml" href="./play/favicon.svg" />
+    <style>
+      :root {
+        --cream: #fdf8ea;
+        --gold: #f0bd57;
+        --green: #16301f;
+      }
+      * { box-sizing: border-box; }
+      html, body { margin: 0; min-height: 100%; }
+      body {
+        display: grid;
+        place-content: center;
+        gap: 22px;
+        padding: 40px 22px;
+        background:
+          radial-gradient(900px 600px at 50% 0%, #2a4a31, #16291c 50%, #0b1710 100%);
+        color: var(--cream);
+        font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+        text-align: center;
+      }
+      .eyebrow { margin: 0; font-size: 11px; letter-spacing: 0.24em; text-transform: uppercase; opacity: 0.6; }
+      h1 {
+        margin: 6px 0 0;
+        font-family: "Iowan Old Style", Palatino, Georgia, serif;
+        font-weight: 400;
+        font-size: clamp(42px, 9vw, 76px);
+        line-height: 0.95;
+      }
+      h1 em { display: block; font-style: italic; color: var(--gold); }
+      p.lede { margin: 10px auto 0; max-width: 460px; font-size: 14px; line-height: 1.6; opacity: 0.78; }
+      .play {
+        display: inline-block;
+        margin-top: 6px;
+        padding: 16px 40px;
+        border-radius: 999px;
+        background: linear-gradient(180deg, #ffe3a3, var(--gold) 55%, #d79a2e);
+        color: #3b2a08;
+        font-weight: 700;
+        text-decoration: none;
+        box-shadow: 0 14px 32px rgba(214, 154, 45, 0.32);
+      }
+      .meta { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; font-size: 12px; opacity: 0.6; }
+      a.plain { color: inherit; }
+      .art {
+        width: min(520px, 90vw);
+        aspect-ratio: 3 / 2;
+        margin: 0 auto;
+        border-radius: 16px;
+        border: 1px solid rgba(255, 255, 255, 0.14);
+        background:
+          radial-gradient(circle at 30% 40%, #8ed36b, transparent 55%),
+          radial-gradient(circle at 70% 65%, #4b8256, transparent 60%),
+          #233c28;
+        position: relative;
+        overflow: hidden;
+        box-shadow: 0 30px 70px rgba(0, 0, 0, 0.45);
+      }
+      .art span { position: absolute; font-size: 40px; }
+      .art .ball { left: 22%; top: 46%; }
+      .art .flag { right: 20%; top: 40%; }
+      .art .flower { left: 46%; top: 62%; font-size: 26px; }
+    </style>
+  </head>
+  <body>
+    <div class="art" aria-hidden="true">
+      <span class="ball">⚪</span>
+      <span class="flag">⛳</span>
+      <span class="flower">✿</span>
+    </div>
+    <div>
+      <p class="eyebrow">Little Joy Arcade presents</p>
+      <h1>Mini Golf <em>Garden</em></h1>
+      <p class="lede">Seventy-two hand-built holes through eight whimsical gardens. Read the slopes, time the windmill, cross the pond.</p>
+    </div>
+    <div>
+      <a class="play" href="./play/">Play the garden →</a>
+    </div>
+    <div class="meta">
+      <span>72 holes · 8 gardens</span>
+      <span>Free in your browser</span>
+      <span><a class="plain" href="https://littlejoyarcade.site">Little Joy Arcade</a></span>
+    </div>
+  </body>
+</html>

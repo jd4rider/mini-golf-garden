@@ -1,0 +1,27 @@
+{
+  "name": "mini-golf-garden",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Mini Golf Garden — a cosy physics miniature-golf game for Little Joy Arcade.",
+  "author": "jd4rider",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "playwright test",
+    "lint": "oxlint src tests"
+  },
+  "dependencies": {
+    "phaser": "^3.90.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.1",
+    "oxlint": "^1.89.0",
+    "typescript": "^5.7.3",
+    "vite": "^6.3.5",
+    "vitest": "^3.2.4"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "mini-golf-garden",
+  "name": "Mini Golf Garden",
+  "tagline": "Seventy-two little putts through eight whimsical gardens.",
+  "description": "A cosy physics miniature-golf game. Read the slopes, time the windmill, cross the pond and sink 72 hand-built holes across eight themed gardens.",
+  "categories": ["Sports", "Physics", "Casual"],
+  "runtime": "Phaser 3",
+  "version": "0.1.0",
+  "updated": "2026-11-02",
+  "status": "live",
+  "featured": true,
+  "playUrl": "https://jd4rider.github.io/mini-golf-garden/play/",
+  "preferredPlayUrl": "https://minigolf.littlejoyarcade.site/play/",
+  "siteUrl": "https://jd4rider.github.io/mini-golf-garden/",
+  "repoUrl": "https://github.com/jd4rider/mini-golf-garden",
+  "downloads": [],
+  "cover": { "from": "#8ed36b", "to": "#2f5d3a", "emoji": "⛳" },
+  "highlights": [
+    "72 hand-designed holes across 8 themed gardens",
+    "Deterministic 120 Hz ball physics with slopes, ice, sand, mud and water",
+    "Windmills, timed gates, rafts, lily pads, mushrooms, teleporters and bees",
+    "Journey, Free Play, Daily Challenge, Time Attack, Trick Shots and Zen",
+    "Keyboard and touch controls, fully offline, cloud saves when signed in"
+  ],
+  "howToPlay": [
+    "Press near the ball, drag away from your target and release to putt.",
+    "Stone and ice let the ball run; sand and mud grab it; water costs a stroke.",
+    "Par or better earns three stars. Stars open the next garden."
+  ],
+  "levels": "72 holes in 8 gardens",
+  "saveKey": "mini-golf-garden-save-v1"
+}
