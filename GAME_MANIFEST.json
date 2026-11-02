@@ -3,7 +3,7 @@
   "name": "Mini Golf Garden",
   "tagline": "Seventy-two little putts through eight whimsical gardens.",
   "description": "A cosy physics miniature-golf game. Read the slopes, time the windmill, cross the pond and sink 72 hand-built holes across eight themed gardens.",
-  "categories": ["Sports", "Physics", "Casual"],
+  "categories": ["Physics", "Relaxing", "Casual"],
   "runtime": "Phaser 3",
   "version": "0.1.0",
   "updated": "2026-11-02",
