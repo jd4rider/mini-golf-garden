@@ -52,7 +52,8 @@ export function updateDailyStreak(
   today = dailyKey(),
 ): boolean {
   if (daily.lastPlayed === today) return false
-  daily.streak = daily.lastPlayed === yesterdayKey() ? daily.streak + 1 : 1
+  const previous = yesterdayKey(new Date(`${today}T00:00:00Z`))
+  daily.streak = daily.lastPlayed === previous ? daily.streak + 1 : 1
   daily.lastPlayed = today
   return true
 }
